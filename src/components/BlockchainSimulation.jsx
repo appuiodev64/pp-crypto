@@ -18,7 +18,7 @@ const createBlock = (index, data, previousHash) => {
 
 const BlockchainSimulation = () => {
   const [blockchain, setBlockchain] = useState([
-    createBlock(0, "Bloc Genese", "0")
+    createBlock(0, "Bloc de genèse", "0")
   ])
   const [input, setInput] = useState("")
 

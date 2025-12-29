@@ -82,17 +82,17 @@ export default function Learn() {
           les intègrent dans un nouveau bloc.
         </p>
         <p>
-          Le réseau doit ensuite parvenir à un consensus pour ajouter le bloc à
+          Le réseau doit ensuite valider en procédant à un consensus (PoW ou POS) pour ajouter le bloc à
           la blockchain.
         </p>
         <ul className="list-disc ml-6 space-y-2">
           <li>
-            <strong>Proof-of-Work (PoW)</strong> : résoudre un calcul complexe
+            <strong>Proof-of-Work (PoW)</strong> : résoudre un calcul complexe à l'aide d'un ordinateur puissant
             pour prouver qu’on a dépensé de l’énergie afin de valider un bloc.
           </li>
           <li>
-            <strong>Proof-of-Stake (PoS)</strong> : les validateurs sont choisis
-            selon la crypto qu’ils ont mise en jeu, moins énergivore que PoW.
+            <strong>Proof-of-Stake (PoS)</strong> : les mineurs/validateurs sont choisis
+            selon la crypto qu’ils ont mise en jeu et qu'ils ont bloqué en guise de garantie. Plus leur mise est importante, plus ils ont de chances d’être choisis pour créer un nouveau bloc et recevoir une récompense. Ce consensus est moins énergivore que le PoW.
           </li>
         </ul>
         <p>
@@ -117,13 +117,13 @@ export default function Learn() {
         </p>
         <p>
           Si quelqu’un modifie une transaction, le hash change et invalide la
-          chaîne après ce point, assurant l’immutabilité.
+          chaîne après ce point. Cela assure l’immutabilité, la propriété de ce qui ne peut être changé.
         </p>
         <p className="font-semibold">Le hachage permet de :</p>
         <ul className="list-disc ml-6 space-y-2">
           <li>Identifier chaque bloc de manière unique.</li>
           <li>Créer un lien sécurisé entre les blocs.</li>
-          <li>Rendre la blockchain quasi impossible à falsifier.</li>
+          <li>Rendre la blockchain impossible à falsifier.</li>
           <li>Assurer l’immutabilité des données validées.</li>
         </ul>
       </section>
