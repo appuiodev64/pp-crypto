@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import AvantagesRisques from "../components/AvantagesRisques";
 
 function SectionCard({ title, children }) {
   return (
